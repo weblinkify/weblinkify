@@ -40,7 +40,7 @@ Azure
 
 The system is designed around modular AI services, structured validation, asynchronous APIs, containerized deployment, and automated quality checks.
 
-[Live Demo](https://ai-fullstack-platform.netlify.app/) · [Repository](https://github.com/weblinkify/Nexora-AI)
+[Live Demo](https://nexora-ai-native.netlify.app/) · [Repository](https://github.com/weblinkify/ai-fullstack-platform)
 
 ---
 
