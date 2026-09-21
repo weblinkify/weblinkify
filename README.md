@@ -136,7 +136,7 @@ Secrets, failure handling, observability, deployment configuration, and maintain
 
 A full-stack AI platform built to explore the intersection of **AI engineering, modern web development, cloud infrastructure, and production software practices.**
 
-**Live:** https://ai-fullstack-platform.netlify.app/
+**Live:** https://nexora-ai-native.netlify.app/
 
 ---
 
