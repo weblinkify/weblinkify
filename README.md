@@ -1,583 +1,158 @@
-# Daniyal Tariq
+<div align="center">
 
-### AI-Native Full-Stack Engineer · AI Systems · Cloud · Automation
+# Hi, I'm Daniyal Tariq 👋
 
-I build **production-oriented AI and full-stack systems** that connect intelligent software with real-world applications.
+### Full-Stack & AI Engineer: I build production-ready web apps, APIs and AI systems
 
-My work spans **AI engineering, modern web development, Python APIs, agentic systems, cloud infrastructure, and developer automation** — from designing LLM-powered workflows to building the APIs, interfaces, data pipelines, containers, CI/CD, and cloud infrastructure that make them usable in production.
+**TypeScript · Angular · React · Next.js · Python · FastAPI · Java · Spring Boot · PostgreSQL · Docker · Azure**
 
-I care about systems that are:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniyaltariq09/)
+[![Live demo](https://img.shields.io/badge/Featured-FieldIQ%20Map%20(live)-22c55e)](https://fieldiq-web-rosy.vercel.app/map)
+[![Portfolio](https://img.shields.io/badge/Live%20demos-8%20projects-6366f1)](#-featured-work)
 
-**Typed · Modular · Testable · Observable · Secure · Deployable · Built to Evolve**
-
----
-
-## What I Build
-
-### 🤖 AI-Native Applications
-
-I build applications where AI is part of the system architecture rather than simply a chatbot feature.
-
-* LLM-powered applications
-* Agentic AI workflows
-* RAG pipelines
-* Structured LLM outputs
-* Tool calling
-* MCP integrations
-* Prompt orchestration
-* AI evaluation
-* Human-in-the-loop workflows
-* AI safety and validation
-
-### ⚡ Full-Stack Systems
-
-I work across the application stack, connecting modern interfaces with reliable backend services.
-
-* React
-* Next.js
-* TypeScript
-* Python
-* FastAPI
-* GraphQL
-* REST APIs
-* PostgreSQL
-* Redis
-* Pydantic
-* Async Python
-
-### ☁️ Cloud & Platform Engineering
-
-I design applications with deployment and operations in mind from the beginning.
-
-* Microsoft Azure
-* Azure OpenAI
-* Azure AI Search
-* Container Apps / AKS
-* Docker
-* Azure Container Registry
-* Azure Key Vault
-* Infrastructure as Code
-* GitHub Actions
-* CI/CD
-
-### 🔧 Engineering Automation
-
-I automate the repetitive parts of software delivery.
-
-```text
-Code
- ↓
-Lint
- ↓
-Type Check
- ↓
-Test
- ↓
-Security Scan
- ↓
-Build
- ↓
-Containerize
- ↓
-Deploy
- ↓
-Monitor
-```
+</div>
 
 ---
 
-# Featured Work
+I turn product ideas into **working software you can click, test and deploy**: dashboards, SaaS platforms, map/data applications, mobile apps and AI features (LLMs, RAG, agents) built into real products.
 
-## 🛰️ Telco AI Operations Assistant
+Every project I deliver comes with **clean typed code, automated tests, CI/CD, Docker and clear documentation**, so your team can run it, change it and trust it after hand-over.
 
-### Enterprise Agentic AI Platform for Telecommunications
+## 💼 How I can help you
 
-A production-oriented enterprise AI platform demonstrating how **Generative AI, Agentic AI, RAG, MCP, and cloud infrastructure** can work together in a telecommunications environment.
-
-The system is designed around multiple specialised AI agents capable of investigating customers, incidents, network events, enterprise documentation, and controlled operational actions.
-
-### Architecture
-
-```text
-                         ┌─────────────────┐
-                         │   Enterprise UI │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │    FastAPI      │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │ Supervisor Agent│
-                         └────────┬────────┘
-                                  │
-              ┌───────────────────┼───────────────────┐
-              ▼                   ▼                   ▼
-       Knowledge Agent     Customer Agent      Incident Agent
-              │                   │                   │
-              ▼                   └─────────┬─────────┘
-             RAG                            │
-              │                             ▼
-              ▼                         MCP Server
-       Azure AI Search                     │
-              │               ┌─────────────┼─────────────┐
-              ▼               ▼             ▼             ▼
-        Azure OpenAI     Customer      Incident      Network
-                         Systems       Systems       Systems
-```
-
-### Engineering Focus
-
-* **LangGraph** multi-agent orchestration
-* **Model Context Protocol (MCP)**
-* Retrieval-Augmented Generation
-* Azure OpenAI
-* Structured tool calling
-* Human approval workflows
-* RBAC and authorization
-* Prompt injection protection
-* Audit logging
-* AI evaluation
-* OpenTelemetry
-* Docker
-* GitHub Actions
-* Azure deployment architecture
-
-### Example Workflow
-
-```text
-User
- ↓
-Supervisor
- ↓
-Customer Agent
- ↓
-MCP
- ↓
-Enterprise Services
- ↓
-Knowledge / RAG
- ↓
-LLM
- ↓
-Validated Response
-```
-
-For sensitive actions:
-
-```text
-AI Recommendation
-       ↓
-Validation
-       ↓
-Authorization
-       ↓
-Human Approval
-       ↓
-Enterprise Action
-       ↓
-Audit Trail
-```
-
-The goal is not simply to build an AI chatbot.
-
-The goal is to demonstrate how an AI engineer can **design, secure, evaluate, deploy, and operate an enterprise AI system.**
+| | |
+| --- | --- |
+| 🧩 **Full-stack web apps & SaaS** | Admin dashboards, booking, invoicing, inventory and subscription platforms. Angular, React or Next.js front ends with REST/GraphQL APIs |
+| 🗺️ **Maps & data visualisation** | Interactive maps with thousands of points (Mapbox / MapLibre, PostGIS), filters, area selection, live stats and CSV export |
+| 🤖 **AI features & automation** | LLM integrations, RAG over your documents, AI agents with tool calling, document extraction with human review |
+| ⚙️ **APIs & backends** | FastAPI, Spring Boot or Node: PostgreSQL, auth, validation, OpenAPI docs and integration tests |
+| 🚀 **DevOps & deployment** | Docker, GitHub Actions CI/CD, Vercel, Netlify and Azure, with one-command local setup and preview deployments |
+| 📱 **Mobile** | React Native (Expo) apps with streaming APIs and end-to-end tests |
 
 ---
 
-## ⚡ Nexora AI
+## ⭐ Featured work
 
-### AI-Native Full-Stack Application Platform
+### 🗺️ FieldIQ Map: 4,000 IoT sensors on an interactive map *(newest)*
 
-A production-oriented full-stack AI platform combining modern web development, Python services, LLM integrations, containers, automation, and cloud infrastructure.
+[![FieldIQ Map: bounding-box selection with live area statistics](https://raw.githubusercontent.com/weblinkify/field-iq-map/main/docs/screenshots/bbox-selection.png)](https://fieldiq-web-rosy.vercel.app/map)
 
-**Stack**
+An environmental monitoring platform: **4,000 sensors across Finland** on a fast WebGL map with clusters, hover tooltips, sensor details with 24 h charts, **draw-a-box area statistics**, filters, a PM2.5 heatmap and CSV export. Every view is shareable by URL.
 
-```text
-Next.js
-React
-TypeScript
-     │
-     ▼
-GraphQL / REST
-     │
-     ▼
-FastAPI
-     │
-     ▼
-AI Services
-     │
-     ▼
-LLM Provider
-     │
-     ▼
-Azure
-```
+- **Frontend:** Angular 22 (signals, strict TypeScript), Tailwind, MapLibre / Mapbox GL behind one engine interface, Apollo GraphQL with generated types
+- **Backend:** Java 21 + Spring Boot (REST + GraphQL), PostgreSQL + PostGIS spatial queries, Flyway, real-time reading simulator
+- **Mock API:** the same contract in Node/TypeScript, so the demo runs with **zero setup**. Contract tests prove mock and real backends match
+- **Quality:** 200+ automated tests: unit, integration (Testcontainers) and Playwright end-to-end in both modes, ~96% backend coverage, Docker Compose, GitHub Actions
 
-### Engineering Focus
-
-* Modern TypeScript frontend architecture
-* FastAPI backend services
-* GraphQL / REST APIs
-* LLM integrations
-* Structured validation
-* Async APIs
-* Dockerized services
-* CI/CD automation
-* Cloud deployment
-* Production-oriented architecture
-
-🔗 **[Live Demo](https://nexora-ai-native.netlify.app/)**
-🔗 **[Repository](https://github.com/weblinkify/ai-fullstack-platform)**
+**[▶ Live demo](https://fieldiq-web-rosy.vercel.app/map)** · **[Area stats demo](https://fieldiq-web-rosy.vercel.app/map?bbox=24.7,60.12,25.2,60.33)** · **[Code](https://github.com/weblinkify/field-iq-map)**
 
 ---
 
-# 🌍 FieldIQ
+### 🧾 InvoiceLens: AI invoice extraction with a human in the loop
 
-### Connected Environmental Monitoring Platform
+<img src="https://raw.githubusercontent.com/weblinkify/Invoice-lens/HEAD/docs/screenshots/demo.gif" alt="InvoiceLens: loading an invoice, fixing a low-confidence field and approving it" width="720" />
 
-FieldIQ explores the intersection of **software, IoT, cloud data, and AI**.
-
-The platform is designed around:
-
-```text
-Sensors
-   ↓
-Device
-   ↓
-Connectivity
-   ↓
-API
-   ↓
-Database
-   ↓
-Dashboard
-   ↓
-Analytics
-   ↓
-AI Insights
-```
-
-The current MVP uses simulated sensor data while establishing the foundation for future hardware integration.
-
-### Current Direction
-
-* Next.js
-* React
-* TypeScript
-* Tailwind CSS
-* Monitoring dashboards
-* Simulated sensor data
-* Sites and devices
-* Alerts
-* Data visualization
-
-### Future Architecture
-
-```text
-Environmental Sensors
-        ↓
-      ESP32
-        ↓
- Wi-Fi / Cellular
-        ↓
-    FieldIQ API
-        ↓
-   Data Platform
-        ↓
-   PostgreSQL
-        ↓
- Monitoring Platform
-        ↓
- Analytics + AI
-```
-
-The longer-term goal is to explore how **physical-world data can become actionable intelligence through software and AI.**
-
-🔗 **[Live Demo](https://field-iq-theta.vercel.app/)**
+Upload PDFs or scans, and the AI extracts vendor, dates, VAT IDs, IBANs, line items and totals. You **only review the low-confidence fields**, then export or push clean data to your ERP via signed webhooks.
+Python · FastAPI · React · LLM extraction · ~97% / 96% test coverage · runs fully without API keys (mock LLM) · **[Code](https://github.com/weblinkify/Invoice-lens)**
 
 ---
 
-# My Engineering Approach
+### 🛰️ Telco AI Operations Assistant: enterprise agentic AI
 
-## AI Is a System, Not a Feature
-
-I don't treat an LLM as an isolated API call.
-
-A reliable AI application needs:
-
-```text
-Model
- +
-Context
- +
-Tools
- +
-Validation
- +
-Security
- +
-Evaluation
- +
-Observability
- +
-Human Oversight
-```
-
-The model is only one component of the system.
+A multi-agent assistant for telecom operations. A supervisor agent routes work to knowledge, customer and incident agents, which use **RAG** over company documentation and **MCP** tools to reach enterprise systems. Sensitive actions need human approval and are fully audit-logged.
+Python · FastAPI · LangGraph · MCP · Azure OpenAI · Azure AI Search · RBAC · OpenTelemetry · Docker · **[Code](https://github.com/weblinkify/llm-agent-platform)**
 
 ---
 
-## Types Are Contracts
+### ⚡ More projects
 
-I prefer explicit interfaces and validation boundaries.
-
-```text
-User Input
-   ↓
-Schema Validation
-   ↓
-Business Logic
-   ↓
-Tool / Service
-   ↓
-Validated Output
-   ↓
-Application
-```
-
-Typed systems make applications easier to understand, test, refactor, and operate.
+| Project | What it is | Stack | Links |
+| --- | --- | --- | --- |
+| **Nexora AI** | AI-native full-stack platform | Next.js · TypeScript · GraphQL/REST · FastAPI · LLM services | [Live](https://nexora-ai-native.netlify.app/) · [Code](https://github.com/weblinkify/ai-fullstack-platform) |
+| **Pocket Chat** | ChatGPT-style iOS app with token-by-token streaming | React Native (Expo) · FastAPI · SSE · E2E iOS tests | [Code](https://github.com/weblinkify/pocket-chat) |
+| **BookFlow AI** | Appointment booking SaaS for service businesses, with an AI assistant | React · TypeScript · Tailwind | [Live](https://bookflowui.netlify.app/) · [Code](https://github.com/weblinkify/bookflow) |
+| **InvoiceFlow** | Invoicing & billing SaaS for freelancers and agencies | React · TypeScript · Tailwind | [Live](https://invoiceflowui.netlify.app/) · [Code](https://github.com/weblinkify/invoice-flow) |
+| **InventoryFlow** | Inventory & stock management SaaS | React · TypeScript · Tailwind | [Live](https://inventoryflowui.netlify.app/) · [Code](https://github.com/weblinkify/inventory-flow) |
+| **ProjectFlow** | Kanban project management SaaS | React · TypeScript · Tailwind | [Live](https://projectflowui.netlify.app/) · [Code](https://github.com/weblinkify/project-management-flow) |
+| **SaaS Subscription** | Plans, billing and settings dashboard | React · TypeScript · Tailwind | [Live](https://saasflowui.netlify.app/) · [Code](https://github.com/weblinkify/SaaS-subscription-flow) |
+| **FieldIQ (v1)** | IoT monitoring dashboard MVP | Next.js · React · TypeScript | [Live](https://field-iq-theta.vercel.app/) · [Code](https://github.com/weblinkify/fieldIQ) |
+| **From Click to Code** | A real todo app with a built-in 23-lesson course on how the web works | JavaScript · Node · CI | [Code](https://github.com/weblinkify/from-click-to-code) |
 
 ---
 
-## Agents Need Boundaries
+## 🤝 How I work with clients
 
-AI agents should not have unrestricted access to application infrastructure.
+1. **Understand:** a short call to pin down the goal, users and must-haves.
+2. **Plan:** a written scope with milestones, so you know what you get and when.
+3. **Build in milestones:** working demos you can click at every step, not just at the end.
+4. **Quality built in:** typed code, automated tests and CI on every change.
+5. **Deploy:** live on Vercel, Netlify, Azure or your servers, with Docker for one-command setup.
+6. **Hand-over:** a clear README, setup steps and walkthrough, so your team owns the code.
 
-Instead:
-
-```text
-Agent
-  ↓
-Tool
-  ↓
-Authorization
-  ↓
-Enterprise Service
-```
-
-This creates clear boundaries between **AI reasoning and system execution**.
+Clear, regular communication throughout. I'd rather show progress than promise it.
 
 ---
 
-## Retrieved Data Is Untrusted
+## 🛠️ Tech stack
 
-RAG systems must distinguish between:
+**Frontend**
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![React Native](https://img.shields.io/badge/React%20Native-20232A?logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white)
+![MapLibre](https://img.shields.io/badge/MapLibre%20%2F%20Mapbox-396CB2?logo=maplibre&logoColor=white)
 
-```text
-System Instructions
-        ≠
-Retrieved Content
-```
+**Backend & APIs**
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=white)
+![REST](https://img.shields.io/badge/REST%20%2F%20OpenAPI-6BA539?logo=openapiinitiative&logoColor=white)
 
-Documents can contain incorrect, malicious, or instruction-like content.
+**Data**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20%2B%20PostGIS-4169E1?logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-336791?logo=postgresql&logoColor=white)
 
-AI systems therefore need explicit controls around:
+**AI**
+![OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0078D4?logo=openai&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?logo=langchain&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG%20%C2%B7%20Agents%20%C2%B7%20MCP-8B5CF6)
 
-* Prompt boundaries
-* Tool permissions
-* Output validation
-* Context handling
-* Prompt injection
-* Source attribution
+**DevOps & Cloud**
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?logo=netlify&logoColor=white)
 
----
-
-## Production Thinking Starts Early
-
-I think about more than whether an application works locally.
-
-Important questions include:
-
-* What happens when the model fails?
-* What happens when a tool times out?
-* Can the request be retried safely?
-* How is the action authorized?
-* How is the result audited?
-* How much does the request cost?
-* Can we observe the workflow?
-* Can the system scale?
-* Can another engineer understand the architecture?
-
----
-
-# Technical Stack
-
-### Languages
-
-`TypeScript` · `Python` · `SQL`
-
-### Frontend
-
-`React` · `Next.js` · `HTML` · `CSS` · `Tailwind CSS`
-
-### Backend
-
-`FastAPI` · `GraphQL` · `REST` · `Pydantic` · `SQLAlchemy` · `AsyncIO`
-
-### AI Engineering
-
-`Azure OpenAI` · `LangGraph` · `LangChain` · `MCP` · `RAG` · `Embeddings` · `Vector Search` · `Tool Calling` · `Structured Outputs`
-
-### Data
-
-`PostgreSQL` · `Redis` · `pgvector` · `Azure AI Search`
-
-### Cloud
-
-`Microsoft Azure` · `Azure Container Apps` · `AKS` · `Azure Container Registry` · `Azure Key Vault`
-
-### DevOps
-
-`Docker` · `Docker Compose` · `GitHub Actions` · `CI/CD` · `Terraform` · `Bicep`
-
-### Observability
-
-`OpenTelemetry` · `Azure Monitor` · `Application Insights`
-
-### Quality
-
-`Pytest` · `Ruff` · `Mypy` · `TypeScript` · `Integration Testing` · `AI Evaluation`
+**Testing**
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?logo=vitest&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?logo=pytest&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit%205%20%2B%20Testcontainers-25A162?logo=junit5&logoColor=white)
 
 ---
 
-# System Design
+## 🧭 What you can expect from my code
 
-I enjoy working at the intersection of application engineering and AI infrastructure.
-
-A typical system I design looks like:
-
-```text
-                    ┌──────────────┐
-                    │   Frontend   │
-                    │ Next.js/React│
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │ API Gateway  │
-                    │ REST/GraphQL │
-                    └──────┬───────┘
-                           │
-                           ▼
-                 ┌────────────────────┐
-                 │ Application Layer  │
-                 └─────────┬──────────┘
-                           │
-              ┌────────────┼────────────┐
-              ▼            ▼            ▼
-           Agents         RAG         Tools
-              │            │            │
-              └────────────┼────────────┘
-                           ▼
-                     LLM Provider
-                           │
-                           ▼
-                  Validation / Policy
-                           │
-                           ▼
-                 Enterprise Services
-                           │
-                           ▼
-                 Database / Cache / APIs
-```
-
-Around the system:
-
-```text
-Security
-Observability
-Testing
-Evaluation
-CI/CD
-Infrastructure
-```
+- **Runs on day one:** `docker compose up` or one `make` command, with no secrets needed for a demo.
+- **Tested:** unit, integration and end-to-end tests that run in CI on every push.
+- **Typed & documented:** strict TypeScript, typed Python, generated API types, and READMEs with screenshots.
+- **Secure by default:** environment-based configuration, input validation, least-privilege containers.
+- **Built to change:** small modules and clear contracts, so new features don't break old ones.
 
 ---
 
-# Currently Exploring
+<div align="center">
 
-I'm currently focused on:
+### 📬 Let's build something
 
-* 🤖 Agentic AI architecture
-* 🧠 LLM-powered developer tools
-* 🔎 Production RAG systems
-* 🔌 Model Context Protocol
-* 🕸️ Multi-agent workflows
-* ⚡ TypeScript + Python full-stack systems
-* ☁️ Azure AI infrastructure
-* 🐳 Containerized applications
-* 🔄 CI/CD automation
-* 📊 AI evaluation and observability
-* 🔐 Secure AI application design
-* 🌐 AI + IoT systems
+Have a product idea, an MVP to ship, or an existing app that needs features, AI or a clean-up?
+**Message me on Upwork or [LinkedIn](https://www.linkedin.com/in/daniyaltariq09/)**. Happy to start with a short call.
 
----
-
-# What I Want to Build
-
-I'm particularly interested in systems where **AI interacts with real software, data, and infrastructure**.
-
-```text
-AI
- +
-Software
- +
-Data
- +
-Cloud
- +
-Automation
- =
-Intelligent Systems
-```
-
-The interesting engineering problems are not only about making models generate better answers.
-
-They're about making AI systems:
-
-**Reliable. Secure. Observable. Testable. Cost-aware. Governable. Useful.**
-
----
-
-# GitHub
-
-I use GitHub as my engineering workspace for:
-
-* Building
-* Experimenting
-* Testing
-* Documenting
-* Automating
-* Deploying
-* Learning
-* Iterating
-
-### `@weblinkify`
-
-Building at the intersection of:
-
-**AI × Full Stack × Cloud × Automation**
-
----
-
-## Let's Build
-
-I'm interested in collaborating on **AI-native products, developer tools, intelligent automation, enterprise AI systems, and cloud-native applications.**
-
-If you're building something where **AI needs to work like software — not just look like a demo — I'd love to explore it.**
-
-📫 **[LinkedIn](https://www.linkedin.com/in/daniyaltariq09/)**
-💻 **[GitHub](https://github.com/weblinkify)**
+</div>
