@@ -20,7 +20,7 @@ Every project I deliver comes with **clean typed code, automated tests, CI/CD, D
 
 ## 💼 How I can help you
 
-| | |
+| Service | What you get |
 | --- | --- |
 | 🧩 **Full-stack web apps & SaaS** | Admin dashboards, booking, invoicing, inventory and subscription platforms. Angular, React or Next.js front ends with REST/GraphQL APIs |
 | 🗺️ **Maps & data visualisation** | Interactive maps with thousands of points (Mapbox / MapLibre, PostGIS), filters, area selection, live stats and CSV export |
