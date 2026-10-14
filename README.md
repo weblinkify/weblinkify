@@ -7,8 +7,8 @@
 **TypeScript · Angular · React · Next.js · Python · FastAPI · Java · Spring Boot · PostgreSQL · Docker · Azure**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniyaltariq09/)
-[![Live demo](https://img.shields.io/badge/Featured-FieldIQ%20Map%20(live)-22c55e)](https://fieldiq-web-rosy.vercel.app/map)
-[![Portfolio](https://img.shields.io/badge/Live%20demos-8%20projects-6366f1)](#-featured-work)
+[![Live demo](https://img.shields.io/badge/Featured-RiskPilot%20(live)-22c55e)](https://riskpilot-field-iq1.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Live%20demos-9%20projects-6366f1)](#-featured-work)
 
 </div>
 
@@ -33,7 +33,22 @@ Every project I deliver comes with **clean typed code, automated tests, CI/CD, D
 
 ## ⭐ Featured work
 
-### 🗺️ FieldIQ Map: 4,000 IoT sensors on an interactive map *(newest)*
+### 🛡️ RiskPilot: AI co-pilot for insurance underwriters *(newest)*
+
+[![RiskPilot: submission workbench with AI risk assessment and cited evidence](https://raw.githubusercontent.com/weblinkify/riskpilot/main/docs/screenshot-submission.png)](https://riskpilot-field-iq1.vercel.app)
+
+An underwriting workbench for commercial property insurance. RiskPilot triages broker submissions, scores each risk 0–100 with **explainable signals that cite the exact document and field they came from**, checks the carrier's appetite rules and suggests a next step (Quote, Refer, Request info, Decline). **The underwriter always makes the call:** overrides need a written reason, and every decision goes to an append-only audit log.
+
+- **Frontend:** Angular 22 (standalone components, signals), Apollo GraphQL with generated types, dashboard KPIs and charts
+- **Backend:** Java 21 + Spring Boot 3, GraphQL + REST/OpenAPI, PostgreSQL + Flyway, pluggable AI provider (deterministic mock or Claude LLM with grounding guards)
+- **Mock mode:** the real GraphQL schema runs in the browser, so the demo needs **zero setup**. A golden-file test proves the Java and TypeScript scorers match on all 40 submissions
+- **Quality:** unit, Testcontainers integration and Playwright end-to-end tests, Docker Compose, GitHub Actions CI
+
+**[▶ Live demo](https://riskpilot-field-iq1.vercel.app)** · **[Code](https://github.com/weblinkify/riskpilot)**
+
+---
+
+### 🗺️ FieldIQ Map: 4,000 IoT sensors on an interactive map
 
 [![FieldIQ Map: bounding-box selection with live area statistics](https://raw.githubusercontent.com/weblinkify/field-iq-map/main/docs/screenshots/bbox-selection.png)](https://fieldiq-web-rosy.vercel.app/map)
 
