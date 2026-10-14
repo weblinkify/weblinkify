@@ -7,8 +7,8 @@
 **TypeScript · Angular · React · Next.js · Python · FastAPI · Java · Spring Boot · PostgreSQL · Docker · Azure**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniyaltariq09/)
-[![Live demo](https://img.shields.io/badge/Featured-RiskPilot%20(live)-22c55e)](https://riskpilot-field-iq1.vercel.app)
-[![Portfolio](https://img.shields.io/badge/Live%20demos-9%20projects-6366f1)](#-featured-work)
+[![Live demo](https://img.shields.io/badge/Featured-CareSlot%20(live)-22c55e)](https://careslot-demo.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Live%20demos-10%20projects-6366f1)](#-featured-work)
 
 </div>
 
@@ -33,7 +33,23 @@ Every project I deliver comes with **clean typed code, automated tests, CI/CD, D
 
 ## ⭐ Featured work
 
-### 🛡️ RiskPilot: AI co-pilot for insurance underwriters *(newest)*
+### 🏥 CareSlot: GDPR-grade appointment booking for healthcare *(newest)*
+
+<a href="https://careslot-demo.vercel.app"><img src="https://raw.githubusercontent.com/weblinkify/care-slot/main/docs/images/demo.gif" alt="CareSlot: a patient booking an appointment" width="720" /></a>
+
+Patients book, reschedule and cancel appointments; clinicians plan their day; and the organisation can prove at any time **who accessed which patient's data, when and why**. Clinicians open a record only with a care relationship and a stated reason, consent is an append-only decision history, and the **right to erasure works without breaking the audit trail**.
+
+- **Frontend:** React + TypeScript + Tailwind (semantic tokens, dark mode), React Query, API types generated from the OpenAPI contract
+- **Backend:** Python + FastAPI modular monolith with module boundaries enforced in CI, PostgreSQL 16, RS256 JWT auth
+- **Privacy & security:** AES-256-GCM envelope encryption with blind index, hash-chained append-only audit log, retention job, no personal data in logs or traces
+- **Quality:** 117 backend tests (Testcontainers), OpenAPI contract tests, Vitest, Playwright with axe WCAG 2.2 AA scans; CI with mypy strict, SBOM and Trivy scan
+- **AI-assisted, governed:** built with an AI coding agent under a written AI development policy and the same CI gates as human code
+
+**[▶ Live demo](https://careslot-demo.vercel.app)** (synthetic data, one-click demo sign-in) · **[Code](https://github.com/weblinkify/care-slot)**
+
+---
+
+### 🛡️ RiskPilot: AI co-pilot for insurance underwriters
 
 [![RiskPilot: submission workbench with AI risk assessment and cited evidence](https://raw.githubusercontent.com/weblinkify/riskpilot/main/docs/screenshot-submission.png)](https://riskpilot-field-iq1.vercel.app)
 
