@@ -4,9 +4,12 @@
 
 ### AI Engineer: I build AI agents, RAG and LLM features into production-ready products
 
-**LLMs · AI agents · RAG · MCP · LangGraph · Evals · Python · FastAPI · TypeScript · React · Angular · Next.js · Azure**
+🎓 **Google Cloud Certified: Professional Cloud Developer** · 7+ years of full-stack engineering
+
+**LLMs · AI agents · RAG · MCP · LangGraph · Evals · Python · FastAPI · TypeScript · React · Angular · Next.js · Google Cloud · Azure**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniyaltariq09/)
+[![Google Cloud Certified](https://img.shields.io/badge/Google%20Cloud%20Certified-Professional%20Cloud%20Developer-4285F4?logo=googlecloud&logoColor=white)](https://www.linkedin.com/in/daniyaltariq09/details/certifications/)
 [![Live demo](https://img.shields.io/badge/Featured-Telco%20AI%20Ops%20(live)-8B5CF6)](https://telco-ai-ops.vercel.app)
 [![Live demo](https://img.shields.io/badge/AI%20co--pilot-RiskPilot%20(live)-22c55e)](https://riskpilot-field-iq1.vercel.app)
 [![Portfolio](https://img.shields.io/badge/AI%20projects-6%20built-6366f1)](#-featured-ai-work)
@@ -125,7 +128,7 @@ The products my AI features plug into:
 2. **Define success first:** a small golden set of real examples, so quality is measured, not guessed.
 3. **Prototype fast:** a clickable demo on your data, with a mock LLM so it runs anywhere.
 4. **Harden:** guardrails, human approval for risky actions, RBAC, audit logs and evals in CI.
-5. **Deploy:** live on Azure, Vercel or your servers, with Docker, tracing and cost-aware model choice.
+5. **Deploy:** live on Google Cloud, Azure, Vercel or your servers, with Docker, tracing and cost-aware model choice.
 6. **Hand-over:** a clear README, eval report, architecture notes and walkthrough, so your team owns it.
 
 Clear, regular communication throughout. I'd rather show progress than promise it.
@@ -170,6 +173,7 @@ Clear, regular communication throughout. I'd rather show progress than promise i
 **DevOps & Cloud**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud%20(certified)-4285F4?logo=googlecloud&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
