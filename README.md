@@ -2,9 +2,9 @@
 
 # Hi, I'm Daniyal Tariq 👋
 
-### AI Engineer: I build AI agents, RAG and LLM features into production-ready products
+### Senior AI-Native Full-Stack Engineer · 🎓 Google Cloud Certified Professional Cloud Developer · AI agents, RAG & LLM apps · Python · TypeScript
 
-🎓 **Google Cloud Certified: Professional Cloud Developer** · 7+ years of full-stack engineering
+7+ years building production web apps, APIs and AI systems
 
 **LLMs · AI agents · RAG · MCP · LangGraph · Evals · Python · FastAPI · TypeScript · React · Angular · Next.js · Google Cloud · Azure**
 
