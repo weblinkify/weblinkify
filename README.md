@@ -2,7 +2,7 @@
 
 # Hi, I'm Daniyal Tariq 👋
 
-### Senior AI-Native Full-Stack Engineer · 🎓 Google Cloud Certified Professional Cloud Developer · AI agents, RAG & LLM apps · Python · TypeScript
+### Lead AI-Native Full-Stack Engineer · 🎓 Google Cloud Certified Professional Cloud Developer · AI agents, RAG & LLM apps · Python · TypeScript
 
 7+ years building production web apps, APIs and AI systems
 
