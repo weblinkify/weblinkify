@@ -12,7 +12,8 @@
 [![Google Cloud Certified](https://img.shields.io/badge/Google%20Cloud%20Certified-Professional%20Cloud%20Developer-4285F4?logo=googlecloud&logoColor=white)](https://www.linkedin.com/in/daniyaltariq09/details/certifications/)
 [![Live demo](https://img.shields.io/badge/Featured-Telco%20AI%20Ops%20(live)-8B5CF6)](https://telco-ai-ops.vercel.app)
 [![Live demo](https://img.shields.io/badge/AI%20co--pilot-RiskPilot%20(live)-22c55e)](https://riskpilot-field-iq1.vercel.app)
-[![Portfolio](https://img.shields.io/badge/AI%20projects-6%20built-6366f1)](#-featured-ai-work)
+[![Live demo](https://img.shields.io/badge/New-MedLift%20drone%20logistics%20(live)-2563eb)](https://medlift-logistics-analyzer.vercel.app)
+[![Portfolio](https://img.shields.io/badge/AI%20projects-7%20built-6366f1)](#-featured-ai-work)
 
 </div>
 
@@ -75,6 +76,21 @@ An underwriting workbench for commercial property insurance. RiskPilot triages b
 - **Quality:** a golden-file test proves the Java and TypeScript scorers match on all 40 submissions; unit, Testcontainers and Playwright tests in CI
 
 **[▶ Live demo](https://riskpilot-field-iq1.vercel.app)** · **[Code](https://github.com/weblinkify/riskpilot)**
+
+---
+
+### 🚁 MedLift: hospital drone vs. courier logistics analyzer *(AI decision support)*
+
+[![MedLift: airspace map, drone vs. courier comparison and AI route agent](https://raw.githubusercontent.com/weblinkify/medlift-logistics-analyzer/main/docs/screenshot.jpg)](https://medlift-logistics-analyzer.vercel.app)
+
+Should this blood sample fly or drive? MedLift compares **door-to-door time, cost and CO₂** for every shipment across a hospital network (Helsinki University Hospital district). It plans **detours around restricted airspace** such as the Helsinki-Vantaa control zone, and blocks the drone for heavy payloads, storms or missing landing pads. An **AI Route Optimization Agent** explains each call in plain language, e.g. *"Direct line passes through Helsinki-Vantaa (EFHK) airspace restriction zone; recommending a western detour."*
+
+- **AI:** `LlmProvider` abstraction with a deterministic mock agent (default, no API cost) or **Claude** with structured output and automatic fallback to the mock; keys stay on the server
+- **Provider abstraction:** one `LogisticsService` interface with a mock client (runs fully in the browser) and a live Axios client, switched by one env flag
+- **Backend:** Java 21 + Spring Boot 3, PostgreSQL + Flyway, Docker Compose dev loop, Vercel serverless proxy for live mode
+- **Quality:** a parity test proves the in-browser engine and the Spring Boot API return identical results on all 72 routes; JUnit + Vitest suites
+
+React · TypeScript · Tailwind · Spring Boot · PostgreSQL · **[▶ Live demo](https://medlift-logistics-analyzer.vercel.app)** (no sign-up) · **[Code](https://github.com/weblinkify/medlift-logistics-analyzer)**
 
 ---
 
